@@ -37,7 +37,7 @@ import {
   CLEAR_ERRORS,
 } from "../constants/userConstants";
 import axios from "axios";
-import { compareSync } from "bcryptjs";
+// import { compareSync } from "bcryptjs";
 
 // Login
 export const login = (email, password) => async (dispatch) => {
